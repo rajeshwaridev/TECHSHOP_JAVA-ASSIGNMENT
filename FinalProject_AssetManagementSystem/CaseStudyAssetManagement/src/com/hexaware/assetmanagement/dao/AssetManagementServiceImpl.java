@@ -262,11 +262,11 @@ public boolean maintenanceDate(int assetId) throws AssetNotMaintainException {
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 //			e.printStackTrace();
-			System.err.println("Employee Not Found");
-			throw new AssetNotFoundException();
+//			System.err.println("Employee Not Found");
+//			throw new AssetNotFoundException();
 		}
 		
-//		return false;
+		return false;
 	}
 
 	@Override

@@ -1,7 +1,6 @@
 package com.hexaware.assetmanagement.presentation;
 
 /*@ Author : Rajeshwari
-
  * Description : Implemented User Interface for AssetManagement System
  * Date: 18-10-2024
  */

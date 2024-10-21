@@ -88,8 +88,9 @@ public class AssetManagementBusinessServiceImpl implements IAssetManagementBusin
 		return assetManagementService.reserveAsset(assetId, employeeId, reservationDate, startDate, endDate);
 		}catch (Exception e) {
 			// TODO: handle exception
-			throw new AssetNotFoundException();
+//			throw new AssetNotFoundException();
 		}
+		return false;
 	}
 
 	@Override
