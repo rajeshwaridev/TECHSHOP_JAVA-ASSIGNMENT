@@ -88,13 +88,10 @@ public boolean maintenanceDate(int assetId) throws AssetNotMaintainException {
 	} catch (SQLException e) {
 		// TODO Auto-generated catch block
 //		e.printStackTrace();
-		return false;
 	}
 	
 	return false;
 }
-
-
 
 	@Override
 	public boolean addAsset(Asset asset) {
@@ -118,7 +115,6 @@ public boolean maintenanceDate(int assetId) throws AssetNotMaintainException {
 			}
 		} catch (SQLException e) {
 //			System.err.println("Please Select Valid Owner ID");
-			return false;
 		}
 		return false;
 	}
@@ -147,7 +143,7 @@ public boolean maintenanceDate(int assetId) throws AssetNotMaintainException {
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 //			e.printStackTrace();
-			return false;
+		
 		}
 		
 
@@ -170,8 +166,9 @@ public boolean maintenanceDate(int assetId) throws AssetNotMaintainException {
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 //			e.printStackTrace();
-			return false;
+			
 		}
+		return false;
 	}
 
 //	@Override
@@ -211,8 +208,9 @@ public boolean maintenanceDate(int assetId) throws AssetNotMaintainException {
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 //			e.printStackTrace();
-			return false;
+
 		}
+		return false;
 	}
 
 	@Override
@@ -310,8 +308,6 @@ public boolean maintenanceDate(int assetId) throws AssetNotMaintainException {
 		} catch (SQLException e) {
 			// TODO: handle exception
 //			e.printStackTrace();
-			
-			return false;
 		}
 		return false;
 	}

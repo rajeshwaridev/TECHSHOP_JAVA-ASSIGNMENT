@@ -1,4 +1,9 @@
 package com.hexaware.assetmanagement.util;
+/*
+ * @Author : Pritesh Rai
+ * Description : JDBC connection
+ * Date :12th OCT 2024
+ */
 import java.io.FileReader;
 import java.io.IOException;
 /*
